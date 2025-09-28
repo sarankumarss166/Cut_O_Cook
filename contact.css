@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #20b2aa;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #3cb371;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #2e8b57;
+    transition: background 0.3s;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #228b22;
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #20b2aa;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* Team section */
+  .team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .team-member h3 {
+    margin: 10px 0 5px;
+    color: #20b2aa;
+  }
+  
+  .team-member p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
